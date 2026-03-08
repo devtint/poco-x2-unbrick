@@ -7,6 +7,13 @@
 # Ignore extracted ROM directories
 phoenixin_in_global_images_*/
 
+# Ignore custom kernel extractions
+Unholy_Kernel/
+
 # Ignore root and kernel images
 *.img
 *.apk
+
+# Ignore temporary scraped html files
+*.html
+twrp.html
