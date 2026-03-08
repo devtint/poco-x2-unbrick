@@ -1,0 +1,12 @@
+# Ignore downloaded ROMs and flash archives
+*.tgz
+*.zip
+*.rar
+*.tar
+
+# Ignore extracted ROM directories
+phoenixin_in_global_images_*/
+
+# Ignore root and kernel images
+*.img
+*.apk
