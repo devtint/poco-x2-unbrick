@@ -11,7 +11,7 @@ This guide documents the exact process taken to:
 3. Flash the complete official Android firmware natively over the Fastboot CLI.
 4. Extract the pristine kernel (`boot.img`), patch it directly on the device, and flash it to achieve permanent root.
 
-## Contents
+* [`apatch_guide/apatch_root_guide.md`](apatch_guide/apatch_root_guide.md): The consolidated, ultimate guide for perfectly rooting the POCO X2 using APatch on the stock kernel.
 * [`poco_x2_repair_root_log.md`](poco_x2_repair_root_log.md): The highly detailed, step-by-step master log covering the entire diagnosis, flashing, and rooting session.
 * [`flash_all_patched.bat`](flash_all_patched.bat): The exact modified flashing script used to bypass the Xiaomi hardware mismatch error (`phoenix` vs `phoenixin`) and the anti-rollback sparse CRC errors.
 
